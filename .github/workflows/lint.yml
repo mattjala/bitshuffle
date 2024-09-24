@@ -1,11 +1,5 @@
 name: bitshuffle-ci-build
-on:
-  pull_request:
-    branches:
-    - master
-  push:
-    branches:
-    - master
+on: push
 
 jobs:
 

@@ -1,6 +1,6 @@
 name: bitshuffle-ci-build
-on:
-  push:
+# Run on every push and every PR
+on: push
 
 jobs:
   run-tests:
